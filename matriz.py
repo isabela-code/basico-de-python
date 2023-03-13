@@ -12,4 +12,5 @@ print("MATRIZ DIGITADA : ")
 
 for i in range (0,M):
     for j in range (0,y):
-        print(f"{mat[i][j]} ")
+        print(f"{mat[i][j]} ", end="")
+    print()
